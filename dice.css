@@ -1,0 +1,71 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    background-color: rgb(236, 234, 234);
+    width: 95%;
+    margin: auto;
+}
+
+h1{
+    /* background-color: chartreuse; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    margin-top: 2%;
+}
+
+p{
+    /* background-color: salmon; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.p1, .p2{
+    font-size: 2.3rem;
+}
+
+.rp1, .rp2{
+    font-size: 1.7rem;
+    font-weight:bolder;
+}
+
+.big{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-around;
+}
+
+.first_player{
+    /* background-color: rgb(255, 147, 147); */
+    width: 50%;
+    border-radius: 0.7rem;
+}
+
+.second_player{
+    /* background-color: rgb(174, 174, 253); */
+    width: 50%;
+    border-radius: 0.7rem;
+}
+
+img{
+    
+    /* background-color: seagreen; */
+    width: 35%;
+    height: 35%;
+    /* padding: 50px; */
+    margin: 0 0 0 32.5%;
+}
+.button{
+    /* background-color: seagreen; */
+    text-align: center;
+    margin-top: 1.9%;
+}
+
+button{
+    cursor: pointer;
+    width: 7rem;
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}

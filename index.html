@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="dice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Let's Roll the Dice</h1>
+    
+    <div class="big">
+        <div class="first_player">
+            <div> <p class = "p1">Player 1</p></div>
+            <div><img class="img1" src="dice-1.png"></div>
+            <div class="res1"><p class="rp1">---</p></div>
+        </div>
+        
+        <div class="second_player">
+            <div><p class = "p2">Player 2</p> </div>
+            <div><img class="img2" src="dice-1b.png"></div>
+            <div class="res2"><p class="rp2">---</p></div>
+        </div>
+        
+    </div>
+    <div class="button">
+        <button type="button" onclick="dice_no()">Play</button>
+    </div>
+
+    <script src="dice.js"></script>
+</body>
+</html>
